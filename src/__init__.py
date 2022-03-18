@@ -24,4 +24,5 @@ def greeting():
     return render_template('greeting.html', name=name)
 
 
-from . import routes, models
+from . import routes
+from .database import models
